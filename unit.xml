@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="10.0470" tests="6" failures="5">
+  <testsuite name="Root Suite" timestamp="2021-05-30T05:52:37" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="express_recipes_pagination" timestamp="2021-05-30T05:52:37" tests="6" file="C:\Users\higui\projects\5921a75f-9e7f-4fc3-a0a5-3f741345ff6d\test\index.spec.js" time="10.0470" failures="5">
+    <testcase name="express_recipes_pagination Should return 200 for /recipes with default pagination" time="2.0110" classname="Should return 200 for /recipes with default pagination">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (C:\Users\higui\projects\5921a75f-9e7f-4fc3-a0a5-3f741345ff6d\test\index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (C:\Users\higui\projects\5921a75f-9e7f-4fc3-a0a5-3f741345ff6d\test\index.spec.js)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]]></failure>
+    </testcase>
+    <testcase name="express_recipes_pagination Should respond with correct data when only page is set in query" time="2.0020" classname="Should respond with correct data when only page is set in query">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (C:\Users\higui\projects\5921a75f-9e7f-4fc3-a0a5-3f741345ff6d\test\index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (C:\Users\higui\projects\5921a75f-9e7f-4fc3-a0a5-3f741345ff6d\test\index.spec.js)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]]></failure>
+    </testcase>
+    <testcase name="express_recipes_pagination Should respond with correct data when only limit is set in query" time="2.0080" classname="Should respond with correct data when only limit is set in query">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (C:\Users\higui\projects\5921a75f-9e7f-4fc3-a0a5-3f741345ff6d\test\index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (C:\Users\higui\projects\5921a75f-9e7f-4fc3-a0a5-3f741345ff6d\test\index.spec.js)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]]></failure>
+    </testcase>
+    <testcase name="express_recipes_pagination Should respond with correct data when both limit and page are set in query - 1" time="2.0030" classname="Should respond with correct data when both limit and page are set in query - 1">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (C:\Users\higui\projects\5921a75f-9e7f-4fc3-a0a5-3f741345ff6d\test\index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (C:\Users\higui\projects\5921a75f-9e7f-4fc3-a0a5-3f741345ff6d\test\index.spec.js)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]]></failure>
+    </testcase>
+    <testcase name="express_recipes_pagination Should respond with correct data when both limit and page are set in query - 2" time="2.0090" classname="Should respond with correct data when both limit and page are set in query - 2">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (C:\Users\higui\projects\5921a75f-9e7f-4fc3-a0a5-3f741345ff6d\test\index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (C:\Users\higui\projects\5921a75f-9e7f-4fc3-a0a5-3f741345ff6d\test\index.spec.js)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]]></failure>
+    </testcase>
+    <testcase name="express_recipes_pagination Should respond with correct data when both limit and page are out of bounds" time="0.0140" classname="Should respond with correct data when both limit and page are out of bounds">
+    </testcase>
+  </testsuite>
+</testsuites>
